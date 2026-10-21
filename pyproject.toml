@@ -1,0 +1,17 @@
+[project]
+name = "music-taste"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nomraclegna", email = "clangele2005@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
