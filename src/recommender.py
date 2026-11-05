@@ -27,7 +27,9 @@ def cargar_datos(ruta_csv: str):
 
 
 def buscar_cancion(texto: str, df_clean: pd.DataFrame) -> pd.DataFrame:
-    mask = df_clean["track_name"].str.contains(texto, case=False, regex=False, na=False)
+    mask = df_clean["track_name"].str.contains(
+        texto, case=False, regex=False, na=False
+    ) | df_clean["track_artist"].str.contains(texto, case=False, regex=False, na=False)
     return df_clean.loc[mask, INFO_COLS]
 
 
