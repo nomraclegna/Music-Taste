@@ -1,4 +1,4 @@
-# 🎵 MusicTaste V1 — Content-Based Music Recommendation Engine
+# MusicTaste V1 — Content-Based Music Recommendation Engine
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-StandardScaler%20%7C%20Cosine%20Similarity-orange?logo=scikit-learn&logoColor=white)
@@ -9,14 +9,14 @@
 
 ---
 
-## 🖼️ Demo de la Aplicación
+## Demo de la Aplicación
 
 <!-- Guarda tu captura de pantalla en assets/app_demo.png para que se visualice aquí -->
 ![MusicTaste Streamlit App](assets/app_demo.png)
 
 ---
 
-## 🧠 Decisiones Técnicas y Pipeline de Datos
+## Decisiones Técnicas y Pipeline de Datos
 
 ### 1. Auditoría de Calidad y Consolidación del Catálogo (`df_clean`)
 El catálogo se construye a partir de dos datasets de Spotify (`high_popularity` con 1,686 registros y `low_popularity` con 3,145 registros, sumando 4,831 filas en bruto):
@@ -41,7 +41,7 @@ En lugar de mantener en memoria la matriz completa $N \times N$ ($4494 \times 44
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 Music-Taste/
